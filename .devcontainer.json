@@ -2,7 +2,7 @@
     //https://medium.com/better-programming/a-complete-go-development-environment-with-docker-and-vscode-a3e4410d27f7
 
     "dockerFile": "Dockerfile",
-	"workspaceMount": "src=//c/Users/esalcor/git/third-party/opcua,dst=/workspaces/${project},type=bind,consistency=delegated",
+	"workspaceMount": "src=//c/Users/esalcor/git/third-party/opcua,dst=/workspaces/opcua,type=bind,consistency=delegated",
 	//"workspaceFolder":"workspace",
     // "appPort": [
     //     "8000:8000"

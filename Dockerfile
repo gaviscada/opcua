@@ -34,6 +34,9 @@ RUN apt-get update \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
+#RUN apt-get -y installpython3 pip3
+#RUN pip3 install opcua
+
 # Revert workaround at top layer.
 ENV DEBIAN_FRONTEND=dialog
 
